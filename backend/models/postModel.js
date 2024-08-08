@@ -39,6 +39,10 @@ const postSchema = mongoose.Schema(
 				},
 			},
 		],
+		hashtags: {
+			type: [String],
+			default: [],
+		},
 	},
 	{
 		timestamps: true,
